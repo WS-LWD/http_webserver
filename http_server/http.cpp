@@ -4,7 +4,7 @@ using namespace std;
 
 int http::m_customer_count = 0;                     //记录客户数量
 int http::m_epollfd = -1;                           //将epoll的根设置为静态
-
+ 
 //设置非阻塞
 void setnonblockfd(int fd)                      
 {
